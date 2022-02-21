@@ -1,5 +1,5 @@
 # MDN-feedback
-A place to collate all the feedback from MDN plus
+A place to collate all the feedback for MDN
 
 1. [Raise an issue](https://github.com/mdn/MDN-feedback/issues)
 2. Describe feedback
