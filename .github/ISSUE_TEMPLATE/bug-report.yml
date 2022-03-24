@@ -2,6 +2,7 @@ name: "\U0001F41E Report a problem with MDN Plus"
 description: Report a problem with MDN Plus.
 labels:
   - bug
+  - needs-triage
 body:
   - type: markdown
     attributes:
