@@ -61,14 +61,14 @@ body:
     id: expected
     attributes:
       label: Expected behavior
-      placeholder: What do you expect to happen or see?
+      description: What do you expect to happen or see?
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
       label: Actual behavior
-      placeholder: What happens instead? What do you see instead?
+      description: What happens instead? What do you see instead?
     validations:
       required: true
   - type: dropdown
