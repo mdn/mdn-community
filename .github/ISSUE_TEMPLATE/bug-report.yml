@@ -1,0 +1,138 @@
+name: "\U0001F41E Report a problem with MDN Plus"
+description: Report a problem with MDN Plus.
+labels:
+  - bug
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country
+      description: From what country are you accessing MDN Plus?
+      options:
+        - United States
+        - Canada
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature
+      description: What MDN Plus feature is your bug report about?
+      options:
+        - Subscription
+        - Notifications
+        - Collections
+        - MDN Offline
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: >-
+        A clear and concise description of what the problem is.
+      placeholder: A short description of the overall issue.
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: URL
+      description: List one or more URLs where the issue appeared.
+      placeholder: https://developer.mozilla.org/en-US/plus/...
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: "How do you trigger this bug? Please walk us through it step by step."
+      value: |
+        1.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What do you expect to happen or see?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happens instead? What do you see instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: devices
+    attributes:
+      label: Device
+      description: What device were you using when the issue appeared?
+      options:
+        - Desktop
+        - Laptop
+        - Smartphone
+        - Tablet (e.g. iPad)
+        - Other (specify below)
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Browser
+      description: What browser were you using?
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Safari
+        - Other (specify below)
+    validations:
+      required: true
+  - type: dropdown
+    id: browser-version
+    attributes:
+      label: Browser version
+      description: What browser release channel were you using?
+      options:
+        - Stable version
+        - Preview version (e.g. Beta, Nightly or Canary)
+        - Extended Support Release
+        - "I don't know"
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-systems
+    attributes:
+      label: Operating system
+      description: What operating system were you using?
+      options:
+        - Android
+        - iOS
+        - Linux
+        - Mac OS
+        - Windows
+        - Other (specify below)
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Please always add a screenshot or (even better) a screen recording to help us understand the problem.
+      placeholder: Paste screenshot or screen recording here.
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: Links? References? Anything that will give us more context about the issue you are encountering!
+    validations:
+      required: false

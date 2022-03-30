@@ -1,0 +1,24 @@
+name: "\U0001F4AC Give us your feedback!"
+description: Give us your feedback about MDN!
+labels:
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to give us your feedback!
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feedback
+      description: What would you like to give us feedback about?
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: URL
+      description: List one or more relevant MDN URLs.
+      placeholder: https://developer.mozilla.org/en-US/plus/...
+    validations:
+      required: false
