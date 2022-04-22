@@ -1,15 +1,5 @@
 # MDN-feedback
 
-A place to collect all MDN feedback. This can be issues, suggestions, comments.
+We put people first and do our best to recognize, appreciate and respect the diversity of our global contributors. The MDN Web Docs project welcomes contributions from everyone who shares our goals and wants to contribute in a healthy and constructive manner within our community.
 
-## How to
-
-1. [Raise an issue](https://github.com/mdn/MDN-feedback/issues)
-2. Describe feedback
-3. Apply labels:
-   - Category: Design, Content, Platform or Other
-   - Type: (if appropriate) bug or improvement
- 
- ## MDN Plus
- 
- For MDN Plus issues please check the [FAQ page](https://developer.mozilla.org/en-US/plus/docs/faq) first - thanks!
+MDN feedback is the repository where you will find the [offical MDN Web Docs public feedback discussions](https://github.com/mdn/feedback/discussions).
