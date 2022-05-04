@@ -19,7 +19,7 @@ To ensure we maintain a healthy, friendly, and welcoming community, we want to h
 * **Understanding different perspectives**
     * Our goal should not be to “win” every disagreement or argument. A more productive goal is to be open to ideas that make our own ideas better.
 * **Appreciating and accommodating our similarities and differences**
-    * Be respectful of people with different cultural practices, attitudes and beliefs. Work to eliminate your own biases, prejudices and discriminatory practices. Think of others’ needs from their point of view.
+    * Be respectful of people with different cultural practices, attitudes, and beliefs. Work to eliminate your own biases, prejudices, and discriminatory practices. Think of others’ needs from their point of view.
 * **Lead by Example**
     * Design your community and your work for inclusion. Hold yourself and others accountable for inclusive behaviours. Make decisions based on the highest good.
 
