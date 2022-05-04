@@ -6,7 +6,7 @@ MDN community is the repository where you will find the [offical MDN Web Docs pu
 
 ## Participation guideline highlights
 
-To ensure we maintain a healthy, friendly, and welcoming community, we want to highlight the behaviours we expect from our community:
+To ensure we maintain a healthy, friendly, and welcoming community, we want to highlight the behaviours we expect from our community.
 
 ### Expected behaviours
 
