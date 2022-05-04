@@ -4,7 +4,7 @@ We put people first and do our best to recognize, appreciate and respect the div
 
 MDN community is the repository where you will find the [offical MDN Web Docs public feedback discussions](https://github.com/mdn/mdn-community/discussions).
 
-## Some participation guideline highlights
+## Participation guideline highlights
 
 To ensure we maintain a healthy, friendly, and welcoming community, we want to highlight the behaviours we expect from our community:
 
