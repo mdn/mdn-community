@@ -10,7 +10,7 @@ To ensure we maintain a healthy, friendly, and welcoming community, we want to h
 
 ### Expected behaviours
 
-* **Be Respectful**
+* **Being respectful**
     * Value each other’s ideas, styles, and viewpoints. We may not always agree, but disagreement is no excuse for poor manners. 
 * Be Direct but Professional
     * We must be able to speak directly when we disagree and when we think we need to improve. We need to be honest and direct, as well as respectful.
