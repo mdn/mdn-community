@@ -31,7 +31,7 @@ As important as knowing what you **should** is to know what **not** to do.
     * Violence and threats of violence are not acceptable - online or offline.
 * **Personal attacks**
     * Conflicts will inevitably arise, but frustration should never turn into a personal attack. It is not okay to insult, demean, or belittle others.
-* **Derogatory Language**
+* **Derogatory language**
     * If you’re unsure if a word is derogatory, don’t use it. This also includes repeated subtle and/or indirect discrimination; when asked to stop, stop the behaviour in question.
 * **Unwelcome Sexual Attention or Physical Contact**
     * This includes sexualised comments, jokes or imagery in interactions, communications or presentation materials, as well as inappropriate touching, groping, or sexual advances.
