@@ -27,7 +27,7 @@ As important as knowing what you **should** is to know what **not** to do.
 
 ### Unacceptable behaviours
 
-* **Violence and Threats of Violence**
+* **Violence and threats of violence**
     * Violence and threats of violence are not acceptable - online or offline.
 * **Personal Attacks**
     * Conflicts will inevitably arise, but frustration should never turn into a personal attack. It is not okay to insult, demean or belittle others.
