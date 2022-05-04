@@ -16,7 +16,7 @@ To ensure we maintain a healthy, friendly, and welcoming community, we want to h
     * We must be able to speak directly when we disagree and when we think we need to improve. We need to be honest and direct, as well as respectful.
 * **Being inclusive**
     * Seek diverse perspectives. Diversity of views and of people on teams powers innovation, even if it is not always comfortable. Encourage all voices.
-* **Understand Different Perspectives**
+* **Understanding different perspectives**
     * Our goal should not be to “win” every disagreement or argument. A more productive goal is to be open to ideas that make our own ideas better.
 * **Appreciate and Accommodate our Similarities and Differences**
     * Be respectful of people with different cultural practices, attitudes and beliefs. Work to eliminate your own biases, prejudices and discriminatory practices. Think of others’ needs from their point of view.
