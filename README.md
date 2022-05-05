@@ -23,7 +23,7 @@ To ensure we maintain a healthy, friendly, and welcoming community, we want to h
 * **Leading by example**
     * Design your community and your work for inclusion. Hold yourself and others accountable for inclusive behaviours. Make decisions based on the highest good.
 
-As important as knowing what you **should** is to know what **not** to do.
+As important as knowing how you **should** conduct yourself is understanding unacceptable conduct.
 
 ### Unacceptable behaviours
 
