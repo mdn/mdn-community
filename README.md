@@ -17,7 +17,7 @@ _NOTE:_ mdn-community/discussions is not the place to report problems. For conte
 
 Check out the definition of each discussion category below so that you can start your discussion in the proper place.
 
-| **Feedback Category** | **Category subject** 	|
+| **Discussion category** | **Category subject** 	|
 |---	|---	|
 | 📣  [Announcements](https://github.com/mdn/mdn-community/discussions/categories/announcements) | This category is reserved for MDN Web Docs staff. While there is nothing in place to prevent others from posting here, we ask that you choose one of the other available categories. |
 | 🔮  [Browser compatibility data](https://github.com/mdn/mdn-community/discussions/categories/browser-compatibility-data) | Discussions related to the [browser-compat-data](https://github.com/mdn/browser-compat-data) project. |
