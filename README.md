@@ -12,7 +12,7 @@ On MDN Web Docs, we encourage our community to start and/or engage in discussion
 
 _NOTE:_ mdn-community/discussions is not the place to report problems. For content-related probelms you come across on MDN Web Docs, it is best to raise issues against the [relevant project](https://github.com/mdn/). If you're ever in doubt about whether to open an issue or a discussion, consider the following guidelines:
 
-- Issues are to report a bug or a topic with a clearly defined and actionable outcome.
+- Issues are for reporting a bug with a clearly defined and actionable outcome.
 - If the issue needs a discussion to agree upon a course of action or define an actionable piece of work, you are in the right place.
 
 If discussions are the appropriate place, please see each category's definition below so that you can start your discussion in the proper place.
