@@ -15,7 +15,7 @@ _NOTE:_ mdn-community/discussions is not the place to report problems. For conte
 - Issues are for reporting a bug with a clearly defined and actionable outcome.
 - If the issue needs a discussion to agree upon a course of action or define an actionable piece of work, you are in the right place.
 
-If discussions are the appropriate place, please see each category's definition below so that you can start your discussion in the proper place.
+Check out the definition of each discussion category below so that you can start your discussion in the proper place.
 
 | **Feedback Category** | **Category subject** 	|
 |---	|---	|
