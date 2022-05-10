@@ -8,6 +8,26 @@ At MDN, we put people first and do our best to recognize, appreciate, and respec
 
 > **Note:** By participating in and contributing to our projects and discussions, you acknowledge that you have read and agree to the [Mozilla community participation guidelines](https://github.com/mdn/mdn-community/blob/main/CODE_OF_CONDUCT.md).
 
+On MDN Web Docs, we encourage our community to have healthy discussions around topics related to the overall project. We ask that you keep each discussion on topic and not open discussions covering various issues or topics. MDN Web Docs discussions are also not the place to report problems. For issues, it is best to raise them against the [relevant project](https://github.com/mdn/). If you are ever in doubt, consider the following:
+
+- Issues are to report a bug or a topic with a clearly defined and actionable outcome.
+- If the issue needs a discussion to agree upon a course of action or define an actionable piece of work, you are in the right place.
+
+If discussions are the appropriate place, please see each category's definition below so that you can start your discussion in the proper place.
+
+| **Feedback Category** | **Category subject** 	|
+|---	|---	|
+| 📣  [Announcements](https://github.com/mdn/mdn-community/discussions/categories/announcements) | This category is reserved for MDN Web Docs staff. While there is nothing in place to prevent others from posting here, we ask that you choose one of the other available categories. |
+| 🔮  [Browser compatibility data](https://github.com/mdn/mdn-community/discussions/categories/browser-compatibility-data) | Discussions related to the [browser-compat-data](https://github.com/mdn/browser-compat-data) project. |
+| ✏️  [Content](https://github.com/mdn/mdn-community/discussions/categories/content) | Discussions related to the [content](https://github.com/mdn/content) on MDN Web Docs. However, this is not the place to ask for help with code examples. For this, please [join our community on Discourse](https://discourse.mozilla.org/c/mdn/learn/250). |
+| 🙋  [Content suggestions](https://github.com/mdn/mdn-community/discussions/categories/content-suggestions) | If you have an idea for new or improvements to existing content on MDN Web Docs, this is the place to start your discussion. We commonly label these as opportunity assessments. |
+| 🎨  [Design system](https://github.com/mdn/mdn-community/discussions/categories/design-system) | Design is subjective, but we are always willing to listen to suggestions from the community. For example, suppose you have constructive feedback around the design, user experience, and accessibility of MDN Web Docs. In that case, we want to hear from you. |
+| 👩‍💻  [Interactive Examples](https://github.com/mdn/mdn-community/discussions/categories/interactive-examples) | Discussion related to the [interactive examples](https://github.com/mdn/interactive-examples) project or other live code examples on MDN Web Docs. For help with code examples on MDN Web Docs, please [join our community on Discourse](https://discourse.mozilla.org/c/mdn/learn/250). |
+| 🌐  [Localisation](https://github.com/mdn/mdn-community/discussions/categories/localisation) | Focused discussion around the [translated-content](https://github.com/mdn/translated-content/) repository covering our [supported locales](https://github.com/mdn/translated-content/#locales). This is typically where [announcements of macro deprecation](https://github.com/mdn/mdn-community/discussions/67) will happen. |
+| 👾  [MDN Plus](https://github.com/mdn/mdn-community/discussions/categories/mdn-plus) | Discussions related to the [existing MDN Plus feature set](https://developer.mozilla.org/en-US/plus) as well as feature ideas. For MDN Plus support, please refer to our [official support channel](https://support.mozilla.org/en-US/products/mdn-plus). |
+| 🛠️  [Platform](https://github.com/mdn/mdn-community/discussions/categories/platform) | Discussions related to the [core](https://github.com/mdn/yari) MDN Web Docs platform. These discussions are meant as a means of discovery and exploration of possible ways to improve the architecture and existing features. _NOTE:_ This is not for MDN Plus related feature discussions. If you believe you found a bug, please [report it](https://github.com/mdn/yari/issues/choose) on the Yari repository. |
+| 🧰  [Tooling](https://github.com/mdn/mdn-community/discussions/categories/tooling) | For discussion around existing tooling such as [BoB](https://github.com/mdn/bob), [markdown](https://github.com/mdn/markdown/), reusable [workflows](https://github.com/mdn/workflows), [etc.](https://github.com/mdn/content#moving-one-or-more-documents) This is also the place to suggests new tooling that will make working on MDN Web Docs more efficient. |
+
 ## Participation guideline highlights
 
 To ensure we maintain a healthy, friendly, and welcoming community, we want to highlight the behaviours we expect from our community.
