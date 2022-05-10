@@ -1,4 +1,4 @@
-# mdn-communtiy
+# mdn-community
 
 👋 Welcome to the MDN Web Docs project! We are delighted with your interest in this project.
 
