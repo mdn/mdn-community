@@ -8,6 +8,8 @@ At MDN, we put people first and do our best to recognize, appreciate, and respec
 
 > **Note:** By participating in and contributing to our projects and discussions, you acknowledge that you have read and agree to the [Mozilla community participation guidelines](https://github.com/mdn/mdn-community/blob/main/CODE_OF_CONDUCT.md).
 
+## Discussions
+
 On MDN Web Docs, we encourage our community to start and/or engage in discussions around topics related to the overall project. Discussions are categorized by different topics areas. We ask that you keep each discussion focused on the topic at hand, instead of covering multiple topics in one discussion.
 
 _NOTE:_ mdn-community/discussions is not the place to report problems. For content-related probelms you come across on MDN Web Docs, it is best to raise issues against the [relevant project](https://github.com/mdn/). If you're ever in doubt about whether to open an issue or a discussion, consider the following guidelines:
