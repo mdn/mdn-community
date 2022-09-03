@@ -21,7 +21,7 @@ Check out the definition of each discussion category below so that you can start
 
 | **Discussion category** | **Category subject** 	|
 |---	|---	|
-| 📣  [Announcements](https://github.com/mdn/mdn-community/discussions/categories/announcements) | This category is reserved for MDN Web Docs staff. While there is nothing in place to prevent others from posting here, we ask that you choose one of the other available categories. |
+| 📣  [Announcements](https://github.com/mdn/mdn-community/discussions/categories/announcements) | This category is reserved for MDN Web Docs staff. There are restrictions in place to prevent others from using this category. |
 | 🔮  [Browser compatibility data](https://github.com/mdn/mdn-community/discussions/categories/browser-compatibility-data) | Discussions related to the [browser-compat-data](https://github.com/mdn/browser-compat-data) project. |
 | ✏️  [Content](https://github.com/mdn/mdn-community/discussions/categories/content) | Discussions related to the [content](https://github.com/mdn/content) on MDN Web Docs. _Note:_ This is not the place to ask for help with code examples. For code-related help, please [join our community on Discourse](https://discourse.mozilla.org/c/mdn/learn/250). |
 | 🎨  [Design system](https://github.com/mdn/mdn-community/discussions/categories/design-system) | Discussions related to design improvements. Design is subjective, but we are always open to suggestions from the community. Any improvement that can help the MDN Web Docs experience even better for a wider audience is welcome. If you have constructive feedback around the design, user experience, and accessibility of MDN Web Docs, we'd love to hear from you. |
