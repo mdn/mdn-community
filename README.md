@@ -23,45 +23,39 @@ If you're not sure whether to open an issue or a discussion, consider these poin
 
 Check out the definition of each discussion category below so that you can start your discussion in the right place.
 
-| **Discussion category** | **Subject** |
-| ----------------------- | ----------- |
+| **Discussion category**           | **Subject**                                                                                                                                                                               |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📣 [Announcements][]              | Reserved for MDN staff to make announcements relating to the MDN Web Docs project.                                                                                                        |
+| 🔮 [Browser compatibility data][] | Browser compatibility data project that lives in the [mdn/browser-compat-data][] (BCD) repository.                                                                                        |
+| 👩‍💻 [Code examples][]              | Code examples on MDN Web Docs such as interactive examples, live samples, and static code examples. For help with coding challenges on MDN Web Docs, join [our community on Discourse][]. |
+| ✏️ [Content][]                    | MDN Web Docs content hosted in the [mdn/content][] repository. **Note:** If you have questions about code examples, you should ask in [our community on Discourse][].                     |
+| 🎨 [Design system][]              | We are always open to suggestions that help MDN Web Docs be a better experience for a wider audience.                                                                                     |
+| 🌐 [Localization][]               | Translations of MDN Web Docs content via the [mdn/translated-content][] repo, [supported locales][]. Includes annoucements about [yari macro deprecation][].                              |
+| 👾 [MDN Plus][]                   | The supported [MDN Plus features][] as well as ideas for new features. For support with your MDN Plus subscriptions, see the official [MDN Plus support channel][].                       |
+| 🛠️ [Platform][]                   | Platform architecture and features (e.g., navigation and search) via [mdn/yari][], tooling such as [mdn/BoB][], [mdn/markdown][], GitHub [workflows][], etc.                              |
+| 🤖 [Polls][]                      | Reserved for MDN staff to run polls about topics that we need your input on. Watch this space! 👀                                                                                         |
 
-| 📣 [Announcements](https://github.com/mdn/mdn-community/discussions/categories/announcements)
-| Reserved for MDN staff to make announcements relating to the MDN Web Docs project. |
-
-| 🔮 [Browser compatibility data](https://github.com/mdn/mdn-community/discussions/categories/browser-compatibility-data)
-| Browser compatibility data project that lives in the [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) repository. |
-
-| 👩‍💻 [Code examples](https://github.com/mdn/mdn-community/discussions/categories/interactive-examples)
-| All code examples on MDN Web Docs, including interactive examples, live samples, and static code examples.
-For help with general coding challenges on MDN Web Docs, please [join our community on Discourse](https://discourse.mozilla.org/c/mdn/learn/250). |
-
-| ✏️ [Content](https://github.com/mdn/mdn-community/discussions/categories/content)
-| MDN Web Docs content hosted in the [mdn/content](https://github.com/mdn/content) repository.
-**Note:** If you have questions about code examples, you should ask in [our community on Discourse](https://discourse.mozilla.org/c/mdn/learn/250). |
-
-| 🎨 [Design system](https://github.com/mdn/mdn-community/discussions/categories/design-system)
-| Design is subjective, but we are always open to suggestions from the community.
-Any improvement that can help MDN Web Docs be a better experience for a wider audience is welcome.
-If you have constructive feedback around the design, user experience, and accessibility of MDN Web Docs, we'd love to hear from you! |
-
-| 🌐 [Localization](https://github.com/mdn/mdn-community/discussions/categories/localisation)
-| Translations of MDN Web Docs content and the [mdn/translated-content](https://github.com/mdn/translated-content/) repository including the [supported locales](https://github.com/mdn/translated-content/#locales).
-This is typically where [announcements of macro deprecation](https://github.com/mdn/mdn-community/discussions/67) occur. |
-
-| 👾 [MDN Plus](https://github.com/mdn/mdn-community/discussions/categories/mdn-plus)
-| The supported [MDN Plus features](https://developer.mozilla.org/en-US/plus) as well as ideas for new features.
-For support with your MDN Plus subscriptions, see our [official support channel](https://support.mozilla.org/en-US/products/mdn-plus). |
-
-| 🛠️ [Platform](https://github.com/mdn/mdn-community/discussions/categories/platform)
-| The MDN Web Docs [core platform](https://github.com/mdn/yari).
-Your suggestions on how to improve the platform architecture and features (e.g., navigation and search) are welcome.
-If you found a bug related to the platform, you should [report it in the Yari repository](https://github.com/mdn/yari/issues/choose).
-The **Platform** category is also good for discussing existing tooling, such as [BoB](https://github.com/mdn/bob), [markdown](https://github.com/mdn/markdown/), reusable [workflows](https://github.com/mdn/workflows), etc.
-**NOTE:** This category is not to be confused for MDN Plus discussions, instead, see the [MDN Plus category](https://github.com/mdn/mdn-community/discussions/categories/mdn-plus). |
-
-| 🤖 [Polls](https://github.com/mdn/mdn-community/discussions/categories/polls)
-| Reserved for MDN staff to run polls about topics that we need your input on. Watch this space 👀! |
+[announcements]: https://github.com/mdn/mdn-community/discussions/categories/announcements
+[browser compatibility data]: https://github.com/mdn/mdn-community/discussions/categories/browser-compatibility-data
+[code examples]: https://github.com/mdn/mdn-community/discussions/categories/interactive-examples
+[content]: https://github.com/mdn/mdn-community/discussions/categories/content
+[design system]: https://github.com/mdn/mdn-community/discussions/categories/design-system
+[localization]: https://github.com/mdn/mdn-community/discussions/categories/localisation
+[mdn plus]: https://github.com/mdn/mdn-community/discussions/categories/mdn-plus
+[platform]: https://github.com/mdn/mdn-community/discussions/categories/platform
+[polls]: https://github.com/mdn/mdn-community/discussions/categories/polls
+[supported locales]: https://github.com/mdn/translated-content/#locales
+[yari macro deprecation]: https://github.com/mdn/mdn-community/discussions/67
+[our community on discourse]: https://discourse.mozilla.org/c/mdn/learn/250
+[mdn plus features]: https://developer.mozilla.org/en-US/plus
+[mdn/browser-compat-data]: https://github.com/mdn/browser-compat-data
+[mdn/translated-content]: https://github.com/mdn/translated-content/
+[mdn/content]: https://github.com/mdn/content
+[mdn/yari]: https://github.com/mdn/yari
+[mdn plus support channel]: https://support.mozilla.org/en-US/products/mdn-plus
+[mdn/bob]: https://github.com/mdn/bob
+[mdn/markdown]: https://github.com/mdn/markdown/
+[workflows]: https://github.com/mdn/workflows
 
 > **A note on discussions labelled as archived**: We label some discussions with an `archive` label because we occasionally find two or more discussions about the same topic.
 > You cannot merge two discussions into one, so our workaround is to **add a link in the most active discussion** that references the least active discussion(s).
