@@ -42,20 +42,20 @@ Check out the definition of each discussion category below so that you can start
 [design system]: https://github.com/mdn/mdn-community/discussions/categories/design-system
 [localization]: https://github.com/mdn/mdn-community/discussions/categories/localisation
 [mdn plus]: https://github.com/mdn/mdn-community/discussions/categories/mdn-plus
+[mdn plus features]: https://developer.mozilla.org/en-US/plus
+[mdn plus support channel]: https://support.mozilla.org/en-US/products/mdn-plus
+[mdn/browser-compat-data]: https://github.com/mdn/browser-compat-data
+[mdn/bob]: https://github.com/mdn/bob
+[mdn/content]: https://github.com/mdn/content
+[mdn/markdown]: https://github.com/mdn/markdown/
+[mdn/translated-content]: https://github.com/mdn/translated-content/
+[mdn/yari]: https://github.com/mdn/yari
+[our community on discourse]: https://discourse.mozilla.org/c/mdn/learn/250
 [platform]: https://github.com/mdn/mdn-community/discussions/categories/platform
 [polls]: https://github.com/mdn/mdn-community/discussions/categories/polls
 [supported locales]: https://github.com/mdn/translated-content/#locales
-[yari macro deprecation]: https://github.com/mdn/mdn-community/discussions/67
-[our community on discourse]: https://discourse.mozilla.org/c/mdn/learn/250
-[mdn plus features]: https://developer.mozilla.org/en-US/plus
-[mdn/browser-compat-data]: https://github.com/mdn/browser-compat-data
-[mdn/translated-content]: https://github.com/mdn/translated-content/
-[mdn/content]: https://github.com/mdn/content
-[mdn/yari]: https://github.com/mdn/yari
-[mdn plus support channel]: https://support.mozilla.org/en-US/products/mdn-plus
-[mdn/bob]: https://github.com/mdn/bob
-[mdn/markdown]: https://github.com/mdn/markdown/
 [workflows]: https://github.com/mdn/workflows
+[yari macro deprecation]: https://github.com/mdn/mdn-community/discussions/67
 
 > **Discussions labelled as archived:** Some discussions have an `archived` label because we occasionally find two or more discussions about the same topic.
 > You cannot merge two discussions into one, so our workaround is to **add a link in the most active discussion** that references the least active discussion(s).
