@@ -57,9 +57,9 @@ Check out the definition of each discussion category below so that you can start
 [mdn/markdown]: https://github.com/mdn/markdown/
 [workflows]: https://github.com/mdn/workflows
 
-> **A note on discussions labelled as archived**: We label some discussions with an `archive` label because we occasionally find two or more discussions about the same topic.
+> **Discussions labelled as archived:** Some discussions have an `archive` label because we occasionally find two or more discussions about the same topic.
 > You cannot merge two discussions into one, so our workaround is to **add a link in the most active discussion** that references the least active discussion(s).
-> We will lock older discussions and add the `archived` label, which allows us to keep the older discussion history but focus on active discussions.
+> Locking older discussions and adding the `archive` label allows us to keep old discussion history and shift focus to active discussions.
 
 ## Participation guideline highlights
 
