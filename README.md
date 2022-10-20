@@ -1,22 +1,22 @@
 # MDN Web Docs Community
 
-👋 Welcome to the MDN Web Docs project! We are delighted with your interest in this project.
+👋 Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing.
 
 At MDN, we put people first and do our best to recognize, appreciate, and respect the diversity of our global contributors.
 We welcome contributions from everyone who shares our goals and wants to contribute constructively and respectfully to this project.
 
-`mdn-community` is the repository where you will find the [public feedback discussions](https://github.com/mdn/mdn-community/discussions) for the MDN Web Docs project.
+`mdn-community` is the GitHub repository for [public feedback and discussions](https://github.com/mdn/mdn-community/discussions) about the MDN Web Docs project.
 
 > **Note:** By participating in and contributing to our projects and discussions, you acknowledge that you have read and agree to the [Mozilla community participation guidelines](https://github.com/mdn/mdn-community/blob/main/CODE_OF_CONDUCT.md).
 
 ## GitHub discussions
 
-On MDN Web Docs, we encourage our community to start and engage in discussions around topics related to the overall project.
-We ask that you keep each discussion focused on the topic at hand, instead of covering multiple topics in one discussion.
+On MDN Web Docs, we encourage our community to start and engage in discussions about topics related to the overall project.
+We ask that you keep each discussion focused on the topic at hand, instead of covering multiple subjects in one discussion.
 
 **NOTE:** mdn-community/discussions is not the place to report problems.
 For content-related problems on MDN Web Docs, raise issues in the [relevant project](https://github.com/mdn/).
-If you're not sure whether to open an issue or a discussion, consider these points:
+If you're not sure whether to open an issue or a discussion, consider these hints:
 
 - **Issues** are for reporting a bug, and have a clear and actionable outcome.
 - **Discussions** are for sharing ideas or possible solutions to a problem. They are a place to agree upon a course of action.
@@ -57,9 +57,9 @@ Check out the definition of each discussion category below so that you can start
 [mdn/markdown]: https://github.com/mdn/markdown/
 [workflows]: https://github.com/mdn/workflows
 
-> **Discussions labelled as archived:** Some discussions have an `archive` label because we occasionally find two or more discussions about the same topic.
+> **Discussions labelled as archived:** Some discussions have an `archived` label because we occasionally find two or more discussions about the same topic.
 > You cannot merge two discussions into one, so our workaround is to **add a link in the most active discussion** that references the least active discussion(s).
-> Locking older discussions and adding the `archive` label allows us to keep old discussion history and shift focus to active discussions.
+> Locking older discussions and adding the `archived` label allows us to keep old discussion history and shift focus to active discussions.
 
 ## Participation guideline highlights
 
