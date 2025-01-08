@@ -36,6 +36,13 @@ jobs:
           SPONSOR_INFO: "true"
           LINK_TO_PROFILE: "true"
 
+      - name: Filter users
+        run: |
+          exclude_list=("mdn-bot")
+          for author in "${exclude_list[@]}"; do
+            grep -v "author=${author}" ./contributors.md > ./temp && mv ./temp ./contributors.md
+          done
+
       - name: Create GitHub Discussion
         uses: abirismyname/create-discussion@v1.2.0
         env:
