@@ -38,10 +38,7 @@ jobs:
 
       - name: Filter users
         run: |
-          exclude_list=("mdn-bot")
-          for author in "${exclude_list[@]}"; do
-            grep -v "author=${author}" ./contributors.md > ./temp && mv ./temp ./contributors.md
-          done
+          grep -v "author=mdn-bot" ./contributors.md > ./temp && mv ./temp ./contributors.md
 
       - name: Create GitHub Discussion
         uses: abirismyname/create-discussion@v1.2.0
