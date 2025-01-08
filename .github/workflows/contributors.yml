@@ -36,6 +36,10 @@ jobs:
           SPONSOR_INFO: "true"
           LINK_TO_PROFILE: "true"
 
+      - name: Filter users
+        run: |
+          grep -v "author=mdn-bot" ./contributors.md > ./temp && mv ./temp ./contributors.md
+
       - name: Create GitHub Discussion
         uses: abirismyname/create-discussion@v1.2.0
         env:
