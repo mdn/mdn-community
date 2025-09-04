@@ -2,7 +2,7 @@ name: Monthly contributor report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 9 1 * *"
+    - cron: "5 9 1 * *" # At 09:05 on 1st of the month (https://crontab.guru/#5_9_1_*_*)
 
 permissions:
   discussions: write
@@ -26,6 +26,12 @@ jobs:
           echo "START_DATE=$start_date" >> "$GITHUB_ENV"
           echo "END_DATE=$end_date" >> "$GITHUB_ENV"
 
+          # Get last month in [MMM] [YY] format
+          title_date=$(date -d "$start_date" +'%b %y')
+
+          # Use it in the discussion title
+          echo "TITLE_DATE=$title_date" >> "$GITHUB_ENV"
+
       - name: Run contributor action
         uses: github/contributors@v1
         env:
@@ -45,7 +51,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          title: "Thank you contributors!"
+          title: "Thanks to contributors in ${{ env.TITLE_DATE }}!"
           body-filepath: ./contributors.md
           repository-id: "R_kgDOGsEH7A"
           category-id: "DIC_kwDOGsEH7M4COuo8"
