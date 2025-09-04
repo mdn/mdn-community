@@ -2,7 +2,7 @@ name: Monthly contributor report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 9 1 * *" # At 09:05 on 1st of the month (https://crontab.guru/#5_9_1_*_*)
+    - cron: "5 9 1 * *" # At 09:05 UTC on 1st of the month (https://crontab.guru/#5_9_1_*_*)
 
 permissions:
   discussions: write
