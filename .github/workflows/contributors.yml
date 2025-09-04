@@ -14,6 +14,7 @@ jobs:
 
     steps:
       - name: Get dates for last month
+        id: dates
         shell: bash
         run: |
           # Calculate the first day of the previous month
@@ -22,23 +23,23 @@ jobs:
           # Calculate the last day of the previous month
           end_date=$(date -d "$start_date +1 month -1 day" +%Y-%m-%d)
 
-          # Set an environment variable with the date range
-          echo "START_DATE=$start_date" >> "$GITHUB_ENV"
-          echo "END_DATE=$end_date" >> "$GITHUB_ENV"
+          # Set an output parameter with the date range
+          echo "START_DATE=$start_date" >> "$GITHUB_OUTPUT"
+          echo "END_DATE=$end_date" >> "$GITHUB_OUTPUT"
 
           # Last month in abbreviated month format and 2-digit year
           # For example: "Aug 25"
           title_date=$(date -d "last month" +'%b %y')
 
           # Use it in the discussion title
-          echo "TITLE_DATE=$title_date" >> "$GITHUB_ENV"
+          echo "TITLE_DATE=$title_date" >> "$GITHUB_OUTPUT"
 
       - name: Run contributor action
         uses: github/contributors@v1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          START_DATE: ${{ env.START_DATE }}
-          END_DATE: ${{ env.END_DATE }}
+          START_DATE: ${{ steps.dates.outputs.START_DATE }}
+          END_DATE: ${{ steps.dates.outputs.END_DATE }}
           REPOSITORY: "mdn/content,mdn/yari,mdn/rari,mdn/translated-content,mdn/browser-compat-data,mdn/fred"
           SPONSOR_INFO: "true"
           LINK_TO_PROFILE: "true"
@@ -52,7 +53,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          title: "Thank you contributors! (${{ env.TITLE_DATE }})"
+          title: "Thank you contributors! (${{ steps.dates.outputs.TITLE_DATE }})"
           body-filepath: ./contributors.md
           repository-id: "R_kgDOGsEH7A"
           category-id: "DIC_kwDOGsEH7M4COuo8"
