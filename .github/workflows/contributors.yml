@@ -26,7 +26,8 @@ jobs:
           echo "START_DATE=$start_date" >> "$GITHUB_ENV"
           echo "END_DATE=$end_date" >> "$GITHUB_ENV"
 
-          # Get last month in [MMM] [YY] format
+          # Last month in abbreviated month format and 2-digit year
+          # For example: "Aug 25"
           title_date=$(date -d "last month" +'%b %y')
 
           # Use it in the discussion title
