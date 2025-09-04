@@ -51,7 +51,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          title: "Thanks to contributors in ${{ env.TITLE_DATE }}!"
+          title: "Thank you contributors! (${{ env.TITLE_DATE }})"
           body-filepath: ./contributors.md
           repository-id: "R_kgDOGsEH7A"
           category-id: "DIC_kwDOGsEH7M4COuo8"
