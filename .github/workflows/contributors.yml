@@ -45,15 +45,39 @@ jobs:
           LINK_TO_PROFILE: "true"
 
       - name: Filter users
+        id: result
         run: |
           grep -v "author=mdn-bot" ./contributors.md > ./temp && mv ./temp ./contributors.md
 
+          # Store as multiline output
+          EOF="$(openssl rand -hex 8)"
+          echo "BODY<<$EOF" >> "$GITHUB_OUTPUT"
+          cat ./contributors.md >> "$GITHUB_OUTPUT"
+          echo "$EOF" >> "$GITHUB_OUTPUT"
+
       - name: Create GitHub Discussion
-        uses: abirismyname/create-discussion@v1.2.0
         env:
+          BODY: ${{ steps.result.outputs.BODY }}
+          CATEGORY_ID: "DIC_kwDOGsEH7M4COuo8"
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          title: "Thank you contributors! (${{ steps.dates.outputs.TITLE_DATE }})"
-          body-filepath: ./contributors.md
-          repository-id: "R_kgDOGsEH7A"
-          category-id: "DIC_kwDOGsEH7M4COuo8"
+          REPOSITORY_ID: "R_kgDOGsEH7A"
+          TITLE: "Thank you contributors! (${{ steps.dates.outputs.TITLE_DATE }})"
+        run: |
+          gh api graphql -f query='
+            mutation($repositoryId: ID!, $categoryId: ID!, $title: String!, $body: String!) {
+              createDiscussion(input: {
+                repositoryId: $repositoryId
+                categoryId: $categoryId
+                title: $title
+                body: $body
+              }) {
+                discussion {
+                  id
+                  url
+                }
+              }
+            }' \
+            -f repositoryId="$REPOSITORY_ID" \
+            -f categoryId="$CATEGORY_ID" \
+            -f title="$TITLE" \
+            -f body="$BODY"
