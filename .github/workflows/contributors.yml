@@ -48,7 +48,12 @@ jobs:
         id: result
         run: |
           grep -v "author=mdn-bot" ./contributors.md > ./temp && mv ./temp ./contributors.md
-          echo "BODY=$(cat ./contributors.md)" >> "$GITHUB_OUTPUT"
+
+          # Store as multiline output
+          EOF="$(openssl rand -hex 8)"
+          echo "BODY<<$EOF" >> "$GITHUB_OUTPUT"
+          cat ./contributors.md >> "$GITHUB_OUTPUT"
+          echo "$EOF" >> "$GITHUB_OUTPUT"
 
       - name: Create GitHub Discussion
         env:
