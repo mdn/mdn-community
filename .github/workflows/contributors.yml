@@ -35,7 +35,7 @@ jobs:
           echo "TITLE_DATE=$title_date" >> "$GITHUB_OUTPUT"
 
       - name: Run contributor action
-        uses: github/contributors@b518e14609eadf468470392201312777172b5dec # v2.0.17
+        uses: github/contributors@7e077779e5e7bf810cc722e15b38ee63f86b880e # v2.0.18
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           START_DATE: ${{ steps.dates.outputs.START_DATE }}
